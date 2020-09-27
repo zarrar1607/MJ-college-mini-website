@@ -1,0 +1,388 @@
+body{
+    font: 300 16px/22px "Helvetica Nue", Helvetica, Arial, sans-serif;
+	background-color: rgb(207, 217, 226);
+	
+	color: rgb(5, 18, 51);
+}
+
+/*
+=======================
+		GRID
+=======================
+*/
+
+*,
+*:before,
+*:after{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.container{
+	padding-right: 40px;
+	padding-left: 40px;
+}
+.grid{
+	margin: 0px auto;
+	width: 70%;/*960px;*/
+	vertical-align: top;
+	text-align: center;
+}
+
+.col-1-3{
+	display: inline-block;
+	width: 33.33%;
+}
+.col-2-3{
+	display: inline-block;
+	width: 66.33%;
+}
+.grid,
+.col-1-3,
+.col-2-3{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+/*
+=======================
+	 	 ROW
+=======================
+*/
+.row{
+	background: #fff;
+	min-width: 960px;
+}
+
+/*
+=======================
+	  CLEARFIX
+=======================
+*/
+.group:before,
+.group:after{
+	content: "";
+	display: table;
+}
+.group:after{
+	clear: both;
+}
+.group{
+	clear: both;
+	*zoom: 1;
+}
+
+
+/*
+=======================
+	  TYPOGRAPHY
+=======================
+*/
+
+h1, h2, h3, h4, h5{
+	margin-bottom: 22px;
+}
+
+h1{
+	font-size: 36px;
+	line-height: 44px;
+}
+
+h2{
+	font-size: 26px;
+	line-height: 35px;
+	margin-top: 15px;
+	font-weight: 900;
+}
+
+h3{
+	font-size: 22px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	font-weight: 600;
+}
+
+h4{
+	font-size: 20px;
+	
+	font-weight: 550;
+}
+
+h5{
+	color: #a9b2b9;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+
+/*
+=======================
+	Header
+=======================
+*/
+header{
+	background-color: rgba(0, 81, 255, 0.541);
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.logo{
+	float: left;
+}
+.primary-header{
+	text-align: center;
+	margin-top: 35px;
+}
+.primary-header a{
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+/*
+=======================
+	Footer
+=======================
+*/
+.primary-footer{
+	background-color: rgb(4, 13, 36);
+	color: seashell;
+	margin-top: 0.1%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 100%;
+	height:100%;
+}
+.primary-footer small{
+	text-align: left;
+}
+.primary-footer section{
+	text-align: right;
+}
+/*
+=======================
+	    Links
+=======================
+*/
+a{
+	text-decoration: none;
+}
+.primary-header a{
+	color: rgb(5, 18, 51);
+}
+.nav a{
+	color: rgba(0, 81, 255, 0.541);
+}
+.primary-header a:hover{
+	background: rgb(207, 217, 226);
+	color: rgba(0, 81, 255, 0.541);
+	border-radius: 1em;
+}
+.nav a:hover{
+	color:white
+}
+.fa {  
+	padding: 15px;  
+	text-align: left;  
+	font-size: 16px;
+	border-radius: 50%;
+	background: transparent; 
+	border: 1px solid white;
+	color: white;  
+}
+.fa-facebook:hover{ 
+	background: #3B5998;
+	border: 1px solid transparent;  
+}  
+.fa-google:hover{
+	background: #dd4b39;
+	border: 1px solid transparent; 
+}
+.fa-linkedin:hover {
+	background: #007bb5;
+	border: 1px solid transparent; 
+}
+.fa-instagram{
+	background: transparent;
+	border: 1px solid white;
+}
+.fa-instagram:hover  {
+	background: #d6249f;
+	border: 1px solid #d6249f;
+
+}
+.fa-envelope-open-o:hover{
+	background: #d1260f;
+	border: 1px solid transparent;
+}
+
+
+/*
+=======================
+	    Button
+=======================
+*/
+.btn-gen{
+	border: 1px solid  rgba(0, 81, 255, 0.541);;
+	padding: 10px 20px;
+}
+.btn{/*this will be attached to all button*/
+	border-radius: 5px;
+	display: inline-block;
+	margin: 5px;
+	color: rgba(0, 81, 255, 0.541);;
+	font-weight: 400;
+	letter-spacing: .5px;
+	text-transform: uppercase;
+}
+.btn-gen:hover{
+	background-color: #fff;
+	color: #648880;
+}
+.btn-sub{
+	border: 0;
+	padding: 11px 30px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.btn-sub:hover{
+	background-color:rgb(5, 18, 51);
+}
+
+/*
+=======================
+	    NEWS
+=======================
+*/
+.news{
+	text-align: center;
+	background-color: white;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-radius: 10em;
+}
+.news marquee{
+	border-radius: 10em;
+}
+/*
+=======================
+	    INTRO
+=======================
+*/
+.intro{
+	text-align: center;
+}
+
+/*
+=======================
+	    Course
+=======================
+*/
+.course{
+	background-color: rgba(0, 81, 255, 0.541);
+	padding-bottom: 15px;
+	border-radius: 1em;
+	margin-top: 20px;
+	margin-bottom: 17px;
+}
+.course .col-1-3{
+	background-color: rgb(207, 217, 226);
+	border: 7px solid rgba(0, 81, 255, 0.541);
+	border-radius: 2em;
+}
+/*
+=======================
+	    REGISTER
+=======================
+*/
+form{
+	text-align: left;
+}
+input,
+select{
+	font: 300 16px/22px "Helvetica Neue", Helvetica, Arial, sans-serif;	
+}
+.enroll label{
+	font-weight: bold;
+}
+.enroll input,
+.enroll select,
+.enroll textarea{
+	margin: 10px 0 35px 0;
+	border: 2px solid rgba(0, 81, 255, 0.541);
+	border-radius: 0.75em;
+	padding: 5px 8px;
+}
+.enroll input{
+	width: 75%;
+}
+.enroll select{
+	height: 35px;
+}
+.guidelines{
+	vertical-align: top;
+	background-color: white;
+	border-radius: 2em;
+	padding-left: 27px;
+	padding-bottom: 1%;
+}
+.guidelines h3{
+	text-decoration: underline;
+}
+ul{
+	list-style: disc;
+}
+.guide{
+	text-align: left;
+	line-height: 34px;
+}
+
+/*
+=======================
+	    Contact_us
+=======================
+*/
+.issue .enroll{
+	margin: 1% 35%;
+	padding-top: 1%;
+	border: 2px solid rgb(5, 18, 51);
+	border-radius: 2em;
+	background-color: rgba(0, 81, 255, 0.541);
+	padding-left: 5%;
+}
+.issue .enroll input,
+.issue .enroll textarea{
+	border: 2px solid rgb(5, 18, 51);
+}
+
+.issue .enroll textarea{
+	margin-right: 50px;
+}
+/*
+=======================
+		Courses
+=======================
+*/
+.info-on-course{
+	margin-bottom: 2%;
+}
+.info-on-course p,
+.info-on-course h4{
+	margin: 1% 1%;
+	line-height: 30px;
+}
+.info-on-course h2{
+	text-align: center;
+	border-bottom: 3px solid white;
+}
+#CSE,
+#IT,
+#MECH{
+	background-color: rgba(119, 162, 255, 0.541);
+	margin: 2%;
+	padding: 1%;
+	border-radius: 2em;
+}
+.info-on-course ul{
+	padding-left: 4%;
+}

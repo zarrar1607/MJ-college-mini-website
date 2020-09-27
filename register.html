@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Muffakham Jah College Of Engineering</title>
+    <link rel="stylesheet" href="stylesheets/reset_css.css">
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+</head>
+<body>
+    <!--JS-->
+    <script src="onSubmit.js"></script>
+    
+    <!--HEADER-->
+    <header class = "container group">
+        <a href="home.html"><img src="images/MJCET Logo.png" alt="Muffakham Jah College Of Engineering" class="logo"></a>
+        <h2>
+            <nav class = "primary-header">
+                <a href="home.html" class = "col-1-4">Home</a>
+                <a href="register.html" class = "col-1-4">Register</a>
+                <a href="courses.html" class = "col-1-4">Courses</a>
+                <a href="contact_us.html" class = "col-1-4">Contact</a>
+            </nav>
+        </h2>
+    </header>
+
+    <!--Register-->
+    <section class="grid">
+        <h2>REGISTER</h2>
+        <form action="#" class="col-2-3" onsubmit="myFunc()">
+            <fieldset class = "enroll"> 
+                <label>
+                    Name<br>
+                    <input type="text" name="name" placeholder="Full Name" id = "name" required>   <br>
+                </label>
+
+                <label>
+                    Email <br>
+                    <input type="email" name="email" placeholder="xyz@gmail.com" id = "email" required> <br>
+                </label>
+
+                <label>
+                    Courses <br>
+                    <select name="Course" required>
+                        <option value="CSE">Computer Science</option>
+                        <option value="IT">Information Technology</option>
+                        <option value="MECH">Mechanical</option>
+                    </select>
+                </label>
+
+                <input type="submit" name="submit" value="ENROLL" class="btn btn-sub">
+            </fieldset>
+        </form><!--
+                np
+        --><section class = "col-1-3 guidelines">
+            <h3>Guidelines:</h3>
+            <ul class="guide">
+                <li>Same name as that on your legal document</li>
+                <li>Provide valid E-mail</li>
+                <li>Course cannot be changed once choosen</li>
+                <li>Do <a href = "contact_us.html">contact us</a> for any queries</li>
+            </ul>
+        </section>
+    </section>
+    <!--FOOTER-->
+    <footer class = "container grid primary-footer">
+        <!--Copyright-->
+        <small class = "col-1-3">&copy; Mohammed Misbah Zarrar</small><!--
+            NAV
+        --><nav class = "col-1-3 nav">
+            <a href="home.html">Home</a>
+            <a href="register.html">Register</a>
+            <a href="courses.html">Courses</a>
+            <a href="contact_us.html">Contact</a>
+        </nav><!--
+            Copyright
+        --><section class = "col-1-3">
+            <a href="https://www.facebook.com/mjcollege/" class="fa fa-facebook"></a>
+            <a href="https://mjcollege.ac.in" class="fa fa-google"></a>
+            <a href="https://www.linkedin.com/school/muffakham-jah-college-of-engineering-&-technology/?originalSubdomain=in" class="fa fa-linkedin"></a> 
+            <a href="https://www.instagram.com/explore/locations/239868996/muffakham-jah-college-of-engineering-and-technology/" class="fa fa-instagram"></a> 
+            <a href="mailto:zarrar1607@gmail.com" class="fa fa-envelope-open-o"></a>
+        </section>
+    </footer>
+</body>
+</html>
