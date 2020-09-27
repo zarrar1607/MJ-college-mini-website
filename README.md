@@ -1,7 +1,6 @@
 # Basic-Website-using-HTML-CSS-JS
 See this template:
-<a href = "https://zarrar1607.github.io
-/home.html>My Universiter</a>
+[My Universty](https://zarrar1607.github.io/home.html)
 The task is to create your University website. The following section must be there:
 ### Sections common to all pages :
 #### Header:
